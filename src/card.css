@@ -1,0 +1,36 @@
+.card-container {
+  width: 200px;
+  height: 360px;
+  background-color: aqua;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.card-image {
+  width: 100%;
+  height: 40%;
+}
+.card-div-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.item-name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.item-desc{
+    font-size: 14px;
+    font-weight: 500;
+}
+.item-price{
+    font-size: 14px;
+    font-weight: 500;
+}

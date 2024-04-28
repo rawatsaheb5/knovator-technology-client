@@ -1,0 +1,8 @@
+.cart-card-container{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,58 @@
+.cart-container {
+  background-color: bisque;
+  width: 80%;
+  margin: 20px auto;
+}
+.cart-container-title {
+  text-align: center;
+}
+.cart-total-price {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.cart-item-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    
+    width: 60%;
+    
+}
+.input-div{
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.label{
+    width: 40%;
+
+}
+.input{
+    width: 60%;
+}
+.cart-container-btn-group {
+  display: flex;
+
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 20px;
+}
